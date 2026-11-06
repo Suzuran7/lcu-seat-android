@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">图书馆自动选座</string>
+    <string name="channel_service">前台服务</string>
+    <string name="channel_task">任务执行</string>
+    <string name="channel_result">执行结果</string>
+</resources>

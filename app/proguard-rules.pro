@@ -1,0 +1,2 @@
+-keep class cn.edu.lcu.libseat.** { *; }
+-dontwarn org.conscrypt.**
