@@ -3,6 +3,16 @@
 聊城大学图书馆座位预约的原生 Android 客户端。协议层与同目录下的 Python 项目
 `lcu-library-seat` 完全一致，本仓库把它搬到手机上，变成常驻后台的自动选座 App。
 
+## 直接安装
+
+仓库自带一份可安装的 debug 包：**`dist/lcu-seat-1.0.11-debug.apk`**（54 MB，含 ML Kit 离线识别模型）。
+
+```bash
+adb install -r dist/lcu-seat-1.0.11-debug.apk
+```
+
+也可以把 APK 传到手机后直接点开安装（需允许「安装未知来源应用」）。仅支持 Android 8.0 及以上。
+
 ## 这个 App 解决什么
 
 | 需求 | 实现 |
