@@ -5,10 +5,13 @@
 
 ## 直接安装
 
-仓库自带一份可安装的 debug 包：**`dist/lcu-seat-1.0.11-debug.apk`**（54 MB，含 ML Kit 离线识别模型）。
+安装包放在 **Releases** 里（不进仓库历史，仓库只有源码）：
+
+- [v1.0.11 (debug)](https://github.com/Suzuran7/lcu-seat-android/releases/tag/v1.0.11) —
+  `lcu-seat-1.0.11-debug.apk`，54 MB，含 ML Kit 离线识别模型
 
 ```bash
-adb install -r dist/lcu-seat-1.0.11-debug.apk
+adb install -r lcu-seat-1.0.11-debug.apk
 ```
 
 也可以把 APK 传到手机后直接点开安装（需允许「安装未知来源应用」）。仅支持 Android 8.0 及以上。
